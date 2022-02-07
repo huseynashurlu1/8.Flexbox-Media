@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   width: 100%;
+   padding: 0 5rem;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.header-all{
+    display: flex;
+    align-items: center;
+}
+.header-all .left{
+    width: 10%;
+}
+.header-all .left img{
+    width: 100%;
+}
+
+.header-all .right{
+    width: 90%;
+    text-align: right;
+}
+
+#Slider .box img{
+    width: 100%;
+}
+
+#Why{
+    padding: 5rem 0;
+}
+
+#Why .top{
+    width: 40%;
+}
+
+#Why .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Why .bottom .box{
+    width: 45%; 
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#Why .bottom .box .left{
+    width: 30%;
+}
+
+#Why .bottom .box .left img{
+    width: 100%;
+}
+
+#Why .bottom .box .right{
+    width: 60%;
+}
